@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cars-web</title>
+    <link rel="stylesheet" href="cars-web.css">
+    <script src="cars-web.js">
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+<!--icon next to title
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">-->
+
+ </head>
+<body>
+<h1 id="logo">Cars-Web</h1>
+<div id="menucontainer">
+  <nav id="menu">
+    <ul>
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Reach us</a></li>
+      <li><a style="font-size:15px;cursor:pointer" onclick="openNav()">&#9776; More cars</a></li>
+    </ul>
+        <!-- Use any element to open the sidenav -->
+        <!--<li><a onclick="openNav()" id="cars-dropdown">More cars</a></li>-->
+    <div id="searchbar"><input type="text" placeholder="Search..."></div>
+
+    <!--<div id="diplayDT"> <button type="button"
+      onclick="document.getElementById('demo').innerHTML = Date()">
+      Display Date & Time.</button>
+    </div>-->
+      
+  </nav>
+</div>
+
+  <div id="Sidenavigation" class="sidenav1">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="https://www.tatamotors.com/">TATA motors</a>
+    <a href="https://www.lamborghini.com/en-en">Lamborghini</a>
+    <a href="https://www.bugatti.com/">Bugatti</a>
+    <a href="https://www.ferrari.com/">Ferrari</a>
+    <a href="https://www.porsche.com/international/">Porsche</a>
+    <a href="https://www.pagani.com/">Pagani</a>
+    <a href="https://www.vw.com/en.html">VolksWagen</a>
+    <a href="https://www.koenigsegg.com/">Koinegsegg</a>
+    <a href="https://www.tesla.com/">Tesla</a>
+    <a href="https://www.audi.com/">Audi</a>
+    <a href="https://www.mercedes-amg.com/en/home.html">Mercedes</a>
+    <a href="https://www.bmw.com/en/index.html">BMW</a>
+    <a href="https://www.lexus.com/">Lexus</a>
+    <a href="https://www.astonmartin.com/en/">Aston-Martin</a>
+  </div>
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+     <div id="submain">
+</div>
+  <!--<input list="more cars" name="car" id="cars">
+<datalist id="cars">
+    <option value="Lamborghini">
+    <option value="Bugatti">
+    <option value="Ferrari">
+    <option value="Koinegsegg">
+    <option value="Porsche">
+  </datalist>-->
+<div>
+ 
+   <!--- <section>
+      <img src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f962df3991e5636a2f68758%2F0x0.jpg%3FcropX1%3D89%26cropX2%3D901%26cropY1%3D103%26cropY2%3D560" id="chiron" >
+      <img src="https://elitetraveler.com/wp-content/uploads/2012/12/bugatti-veyron-super-sport-.jpg" id="veyron">
+    </section> -->
+</div>
+<div>
+  <!--<audio controls>
+    <source src="https://mobcup.net/ringtone/lamborghini-car-sound-n1ha74mo?utm_source=share" type="audio/ogg">
+    <source src="https://mobcup.net/ringtone/lamborghini-car-sound-n1ha74mo?utm_source=share" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>-->
+  
+</div>
+<!--<div class="content">
+  <a href="#" class="button">cars</a> 
+  <a href="#" class="button">motorsports</a>
+</div>-->
+
+<div id="about">
+  <h2>What is the FIA?</h2>
+     <p id="p1">
+Through the expertise gained in that arena, the FIA has since grown into a global organization<br> that not only promotes motor sport, 
+but also safe, sustainable and accessible mobility for all road users across the world.<br>
+As such, the federation works across three key interlinked areas of activity – Sport, Campaigns and Mobility. 
+In the realm of Mobility, the FIA aims to ensure that safe,<br> affordable and clean systems of transport are available to all. 
+The promotion of safe and sustainable forms of mobility has in turn led the FIA to commit to global sustainability initiatives and also to found its own major response to road safety concerns,
+FIA Action for Road Safety.<br>
+This worldwide campaign, in support of the UN’s Decade of Action for Road Safety, aims to reduce fatalities on the roads by five million before 2020.
+As the governing body of motor sport,<br> the FIA ensures that fair, capably regulated and above all safe events are conducted in all corners of the globe. 
+Ultimately, the FIA’s goal is simple – to keep you moving, safely and dynamically.
+     </p> 
+</div>
+
+<!--<div id="image1">
+  <img src="https://www.fia.com/sites/default/files/styles/content_details/public/news/main_image/hypercar_visual.png?itok=a3J-BjA5" alt="oops! something is strange with oyur internet">
+</div>-->
+<div class="container">
+  <img src="https://pictures.topspeed.com/IMG/crop/202009/maserati-mc20-fast-f-29_1600x0w.jpg" id="image">
+  <div class ="content">
+  <h2 id="model"> Maserati MC20</h2>
+  <p id="p">The Maserati MC20 (Maserati Corse 2020) is an upcoming two-seater, mid-engined sports car that will be
+    produced by Italian car manufacturer Maserati and was originally scheduled to debut in May 2020.... <br>
+    The new sports car will be produced at the Maserati Modena plant that is undergoing necessary modernization.</p>
+ </div>
+</div>
+
+<div class="container">
+  <img src="https://robbreport.com/wp-content/uploads/2019/12/1-22.jpg?w=1000" id="image">
+  <div class="content">
+  <h2 id="model"> Aston Martin Valkyrie(AMR)</h2>
+  <p id="p">
+    In the pursuit of the lightest weight and fastest lap times,<br>
+    Valkyrie AMR Pro relies solely on a modified version of the sensational Cosworth-built
+    6.5-litre naturally aspirated V12 engine.
+    Revving to 11,000rpm, this masterpiece of internal combustion is on-target to develop 1000bhp.<br>
+  </p>
+  </div>
+</div>
+
+<div class="container">
+  
+  <img src="https://robbreport.com/wp-content/uploads/2019/12/6424024b.jpg?w=1000" id="image">
+  <div class="content">
+    <h2 id="model"> Ford GT(2005)</h2>
+  <p id="p">
+    In 1966, lightning struck three times when Ford’s GT40 finished 1-2-3 at the daunting 24 Hours of Le Mans.<br>
+    The first consumer grade GT40s came out of homologation rules that 
+    dictated equivalent road cars were built alongside the racers.<br>
+    Fast forward to 2004, and Ford produced an homage to its famous competition machines,
+    dubbing the supercharged sports car simply the GT.<br>
+  </p>
+  </div>
+</div>
+
+<div class="container">
+  <img src="https://robbreport.com/wp-content/uploads/2019/12/730864972.jpg?w=1000" id="image">
+  <div class="content">
+    <h2 id="model">Ferrari Enzo</h2>
+  <p id="p">
+    Ferrari’s biggest sensation of the 21st century remains the Enzo, a V-12-powered,
+    mid-engined monster named after the founder of the company,
+    a man whose legacy continues to inspire the latest supercars from Maranello.<br>
+    Designed by then head of design at Pininfarina, Ken Okuyama, the car captivated its audience in 2002 at the Paris Motor Show.<br>
+  </p>
+  </div>
+</div>
+
+<div class="container">
+  <img src="https://robbreport.com/wp-content/uploads/2019/12/4054408a.jpg?w=1000" id="image">
+  <div class="content">
+  <h2 id="model">Bugatti Veyron Super Sport</h2>
+  <p id="p">
+    Bugatti stormed back to the modern age from the pages of automotive history with the 2005 Veyron,<br>
+    which announced its intentions with quad-turbo twin-V8s that made an astonishing 1,200 hp.<br>
+    Fast forward a half-decade, and the Super Sport version of the Veyron promptly<br>
+    claimed the Guinness Book of Records title in 2010 as world’s fastest production car
+    with a 260 mph run at Volkswagen’s Wolfsburg test track.<br>
+  </p>
+  </div>
+</div>
+
+<div class="container">
+ <img src="https://robbreport.com/wp-content/uploads/2021/12/mclaren-side.jpeg?w=1000" id="image">
+  <div class="content">
+    <h2 id="model">McLaren Senna</h2>
+  <p id="p">
+    Being named after the legendary Formula 1 world champion Ayrton Senna <br>guarantees the fearsome McLaren Senna rarified status.
+    But it’s the car’s savage, rock-out-of-a-catapult performance and breathtaking capability, 
+    both on and off the racetrack, that heighten its near-mythical appeal.<br>
+    Unveiled in 2017 with production set at 500 examples, the $960,000 Senna is a road-legal,<br>
+    super-lightweight track missile powered by a 789 hp, mid-mounted 4.0-liter twin-turbo V-8. <br>
+    It can run zero-to-62 mph in just 2.8 seconds and hit a top speed of 211 mph.<br>
+    While we think the F1 still ranks as the ultimate McLaren, the Senna is certainly right behind it.<br>
+  </p>
+  </div>
+</div>
+
+<div class="container">
+  <img src="https://robbreport.com/wp-content/uploads/2019/12/ssc-tuatara.jpg?w=1000" id="image">
+  <div class="content">
+  <h2 id="model">SSC Tuatara</h2>
+  <p id="p">
+    To reach 300 mph. <br>
+    That’s the target that Washington State–based SSC North America has for its new SSC Tuatara hypercar.<br>
+    To hit that mark, the carbon-fiber–bodied Tuatara—named after a spiny lizard 
+    found in New Zealand—carries a 5.9-liter twin-turbo V-8 packing a massive 1,726 hp.<br>
+  </p>
+  </div>
+</div>
+
+<div class="container">
+  <img src="https://robbreport.com/wp-content/uploads/2021/12/amgone01.jpeg?w=1000" id="image">
+  <div class="content">
+  <h2 id="model">Mercedes-AMG One</h2>
+  <p id="p">
+    How can a car not yet in production rank as one of the supercar “greats” of the 21st century? <br>
+    Because we’re oh-so-confident that when the first of these 1,000 hp Mercedes-AMG Formula 1 racers for the street appears next summer,<br>
+    it will be totally, freakin’ mind-blowing.
+
+    Unveiled back in 2017 as the Project One concept, <br>
+    this road-going monster may have been plagued by technical challenges, but word is that it’s now ready to roll.<br>
+     Powered by a hybrid-boosted, 1.6-liter turbo V-6 and a trio of electric motors, 
+     it’s expected to cover zero to 124 mph in less than 6 seconds and top out at 217 mph.<br>
+     Not surprisingly, all 275 examples of these $2.6 million tour de forces are taken.<br>
+  </p>
+  </div>
+</div>
+<div class="main">
+ <!--<div class="reg">
+  <h2>Register for cool car content!</h2>
+  <form id="registeration">
+    <label><i class="fa fa-user icon"> </i> First name</label><br>
+    <input type="text" name="firstname" id="form"><br><br>
+    <label> Last name</label><br>
+    <input type="text" name="lastname"  id="form"><br><br>
+    <label><i class="fa fa-growth icon"></i> Age</label><br>
+    <input type="number" name="current age" id="form"><br><br>
+    <label><i class="fa fa-envelope icon"></i> E-mail</label><br>
+    <input type="email" name="email" id="form"><br><br>
+    <label> Gender</label><br><br>
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <input type="radio" name="gender" id="gender">
+      <span id="male"> Male</span>
+      &nbsp; &nbsp;
+    <input type="radio" name="gender" id="gender">
+       <span id="female">Female</span>  
+      &nbsp; &nbsp;<br><br>
+      <!--<input type="submit" name="Register" id="submit">
+      <button type="submit" id="submit">Register</button>
+   </form>
+  </div>-->
+</div>
+
+<!--<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h2>thanks for visiting!</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2>do visit again!</h2>
+      
+    </div>
+  </div>
+</div>-->
+
+ <!--</div id="sidenavhover">
+  <div id="mySidenav" class="sidenav">
+    <a href="#" id="feedback">Feedback</a>
+    <a href="#" id="rateus">Rate Us</a>
+    <a href="#" id="rateus">you</a>
+    <a href="#" id="rateus">are</a>
+    <a href="#" id="rateus">a</a>
+    <a href="#" id="rateus">sucker</a>
+  </div>-->
+
+<!--<marquee  behavior="scroll" direction="right" scrollamount="20">
+  <img src="https://aws1.discourse-cdn.com/pocketgems/uploads/episodeinteractive/original/4X/4/9/c/49c04a2a1b967a4dd608f563c9c04caf39fb6e03.png" width="500" height="400" , style="pointer-events: none;">
+</marquee>-->
+
+<hr>
+<footer class="foot">
+  <div id="container">
+    <div class="row">
+       <div class="column">
+        <h4>company</h4>
+        <ul>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">privacy policy</a></li>
+        </ul>
+       </div>
+       <div class="column">
+        <h4>get help!</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">any other</a></li>
+        </ul>
+       </div>
+       <div class="column">
+        <h4>follow us</h4>
+        <div class="socialmedia">
+        <div id="zoom"> <a href="https://www.facebook.com/nikhit.dodia.39"><i class="fab fa-facebook-f"></i></a></div>
+        <div id="zoom"><a href="https://instagram.com/n_i_k_h_i_t_2701?utm_medium=copy_link"><i class="fab fa-instagram"></i></a></div>
+        <div id="zoom"><a href="https://www.linkedin.com/in/nikhit-dodia-ab474a202"><i class="fab fa-linkedin"></i></a></div>
+        </div>
+       </div>
+    </div>
+  </div>
+</footer>
+</body>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyDQpdrARQ2U6CtnCwIAlG-oZLpZM0YH5jA",
+    authDomain: "my-first-project-f2aa5.firebaseapp.com",
+    databaseURL: "https://my-first-project-f2aa5-default-rtdb.firebaseio.com",
+    projectId: "my-first-project-f2aa5",
+    storageBucket: "my-first-project-f2aa5.appspot.com",
+    messagingSenderId: "19152942204",
+    appId: "1:19152942204:web:68c754860e10e29ec145f9"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+
+</html>
